@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  background: #e74c3c;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Services Section */
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.service-item {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.service-item .btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #3498db;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.about-content img {
+  max-width: 50%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
